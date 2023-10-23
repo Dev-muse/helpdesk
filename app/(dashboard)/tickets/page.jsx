@@ -12,7 +12,7 @@ export default function tickets() {
   return (
     <main>
        <nav>
-          <div>
+           
             <div>
               <h2>Tickets</h2>
               <p><small>Current open tickets</small></p>
@@ -22,7 +22,7 @@ export default function tickets() {
               <button className='btn-primary'>New Ticket</button>
             </Link>
           
-          </div>
+       
        </nav>
        {/*loading suspense wrapper around components that need loading  */}
       <Suspense fallback={<Loading/>}>
